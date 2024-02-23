@@ -1,3 +1,5 @@
+import { SidebarRoot } from "./components/sidebar/sidebarRoot";
+
 export default function Home() {
   return (
     <div className="
@@ -5,16 +7,9 @@ export default function Home() {
     grid grid-flow-col grid-cols-3
     ">
 
-      <aside className="bg-slate-800">
-        <header className="bg-slate-700 h-16">
-          header
-        </header>
-
-        aside
-
-      </aside>
+      <SidebarRoot />
       
-      <div className="bg-slate-950 col-span-2">
+      <div className="bg-zinc-950 col-span-2">
         content
       </div>
 
