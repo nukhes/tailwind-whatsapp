@@ -2,4 +2,4 @@
 
 projeto para estudo
 
-link: tailwind-whatsapp-qvo7.vercel.app
+link: https://tailwind-whatsapp-qvo7.vercel.app
