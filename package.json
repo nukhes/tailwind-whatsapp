@@ -1,12 +1,15 @@
 {
   "name": "tailwind-whatsapp",
+  "homepage": "https://nukhes.github.io/tailwind-whatsapp",
   "version": "0.1.0",
   "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npm run build && gh-pages -d out -b master",
+    "predeploy": "next build"
   },
   "dependencies": {
     "next": "14.1.0",
@@ -19,6 +22,7 @@
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
+    "gh-pages": "^6.1.1",
     "postcss": "^8",
     "tailwindcss": "^3.3.0"
   }
