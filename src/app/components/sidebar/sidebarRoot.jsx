@@ -12,7 +12,7 @@ export function SidebarRoot() {
             <SidebarSearch />
 
             <SidebarContact name="Pedro" lastMessage="Olá Mundo!" lastMessageHour="05:02" />
-            <SidebarContact name="Julia" lastMessage="Como você está?" lastMessageHour="13:46" />
+            <SidebarContact name="Eduardo" lastMessage="Como você está?" lastMessageHour="13:46" />
             <SidebarContact name="Alisson" lastMessage="Fechou!!" lastMessageHour="11:20" />
         </div>
 
